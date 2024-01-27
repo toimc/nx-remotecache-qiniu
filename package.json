@@ -2,7 +2,17 @@
   "name": "nx-remotecache-qiniu",
   "version": "1.0.1",
   "description": "Remote caching for @nrwl/nx using Qiniu Blob Storage",
-  "keywords": [],
+  "keywords": [
+    "nx",
+    "remote",
+    "nx-remotecache",
+    "cache",
+    "remotecache",
+    "qiniu",
+    "buckets",
+    "kodo",
+    "typescript"
+  ],
   "author": "toimc <admin@wayearn.com>",
   "repository": {
     "type": "git",
