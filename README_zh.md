@@ -65,19 +65,19 @@ npm install --save-dev nx-remotecache-qiniu
 
 `nx-remotecache-qiniu` 需要设置以下选项：
 
-| 参数      | 描述                     | 环境变量             | `nx.json` 配置项 |
-| --------- | ------------------------ | -------------------- | ---------------- |
-| accessKey | 七牛云 accessKey         | `NXCACHE_ACCESS_KEY` | `accessKey`      |
-| secretKey | 七牛云 secretKey         | `NXCACHE_SECRET_KEY` | `secretKey`      |
-| bucket    | 存储桶                   | `NXCACHE_BUCKET`     | `bucket`         |
-| domain    | 访问域名                 | `NXCACHE_DOMAIN`     | `domain`         |
-| zone      | 区域                     | `NXCACHE_ZONE`       | `zone`           |
-| private   | 私有桶选项（true/false） | `NXCACHE_PRIVATE`    | `private`        |
-| expires   | 缓存过期时间（秒）       | `NXCACHE_EXPIRES`    | `expires`        |
+| 参数      | 描述                     | 环境变量             | `nx.json` 配置项 | 说明                                           |
+| --------- | ------------------------ | -------------------- | ---------------- | ---------------------------------------------- |
+| accessKey | 七牛云 accessKey         | `NXCACHE_ACCESS_KEY` | `accessKey`      | 从七牛云管理后台获取                           |
+| secretKey | 七牛云 secretKey         | `NXCACHE_SECRET_KEY` | `secretKey`      | 从七牛云管理后台获取                           |
+| bucket    | 存储桶                   | `NXCACHE_BUCKET`     | `bucket`         |                                                |
+| domain    | 访问域名                 | `NXCACHE_DOMAIN`     | `domain`         | 建议配置CDN加速                                |
+| zone      | 区域                     | `NXCACHE_ZONE`       | `zone`           | 对应的是ZoneID，小写                           |
+| private   | 私有桶选项（true/false） | `NXCACHE_PRIVATE`    | `private`        | 默认是false，可选属性                          |
+| expires   | 缓存过期时间（秒）       | `NXCACHE_EXPIRES`    | `expires`        | 默认是3600，设置成0，则每次都会更新uploadToken |
 
 ---
 
-您也可以使用以 `NXCACHE_` 为前缀的环境变量。以下是您请求的格式示例。
+您也可以使用以 `NXCACHE_` 为前缀的环境变量，以下是您请求的格式示例。
 
 现在，让我们继续中文文档的编写。
 
