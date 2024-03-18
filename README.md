@@ -18,7 +18,8 @@ This package was built with [nx-remotecache-custom](https://www.npmjs.com/packag
 
 | Nx        | Remote Cache |
 | --------- | ------------ |
-| >= 17.0.0 | >= 1.0.0     |
+| >= 17.0.0 <18 | >= 1.0.0     |
+| >= 18.0.0 < 19| >= 2.0.0     |
 
 ## Installation
 
